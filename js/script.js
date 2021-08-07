@@ -47,7 +47,7 @@ document.addEventListener('keydown', (event) => {
             break;
     }
 
-    //document.getElementById("box").style.top = `${boxTop}px`;
+    document.getElementById("box").style.top = `${boxTop}px`;
     document.getElementById("box").style.left = `${boxLeft}px`;
 
     if (esfregao >= 16){
