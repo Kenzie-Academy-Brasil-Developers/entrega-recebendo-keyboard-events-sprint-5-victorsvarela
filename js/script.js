@@ -27,10 +27,12 @@ document.addEventListener('keydown', (event) => {
     
     switch (keyName){
         case 'ArrowUp':
+            boxTop -= 10;
             alert('esfregue a lâmpada apenas para esquerda e direita')
             break;
 
         case 'ArrowDown':
+            boxTop += 10;
             alert('esfregue a lâmpada apenas para esquerda e direita')
             break;
         
